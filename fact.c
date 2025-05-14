@@ -8,10 +8,15 @@ int main()
     if(n==0){
         printf("1");
     }
+    else if(n<0){
+        printf("Enter the positive number");
+    }
+    else{
     for(i=1;i<=n;i++){
         fact=fact*i;
     }
         printf("%d",fact);
+}
 }
 
     
