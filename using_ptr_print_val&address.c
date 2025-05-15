@@ -4,4 +4,5 @@ int main(){
     int A=8;
     int *ptr=&A;
     printf("value of A:%d",*ptr);
+    printf("address of A:%d",ptr);
  }
