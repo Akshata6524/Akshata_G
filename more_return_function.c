@@ -16,7 +16,7 @@ int main(){
     if(result==0)
     printf("EQUAL\n");
     if(result==1)
-    printf("a is gater than b");
+    printf("a is grater than b");
     if(result==-1)
     printf("a is less than b");
     return 0;
