@@ -1,13 +1,14 @@
 //simple calculator using switch
 #include<stdio.h>
 int main(){
-    int a,b,c,ch;
+    float a,b,c;
+    int ch;
     while(1){
-    printf("Enter the value of a and b:");
-    scanf("%d%d",&a,&b);
     printf("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit\n");
     printf("Enter your choice:");
     scanf("%d",&ch);
+    printf("Enter the value of a and b:");
+    scanf("%d%d",&a,&b);
     switch(ch){
             case 1: c=a+b;
             printf("Result = %d\n",c);
